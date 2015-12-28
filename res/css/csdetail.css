@@ -7,7 +7,7 @@ body
 .leftimage
 {
     float: left;
-    width:35%;
+    width:380px;
 }
 
 .leftimage img
@@ -18,14 +18,14 @@ body
 
 .rightspec
 {
-    float: right;
+    float: left;
     padding-top:15px;
-    width:65%;
+    width:380px;
 }
 
 .rightspec ul
 {
-    padding:0px;
+    padding:20px;
     list-style: none;
 }
 
