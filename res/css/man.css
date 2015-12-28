@@ -1,0 +1,150 @@
+.navbar-inverse
+{
+    background-color: #569A19;
+    color:red;
+}
+li
+{
+    text-align: center;
+}
+
+.navbar
+{
+    height: 50px;
+}
+
+.navbar.navbar-inverse.navbar-static-top
+{
+    border-bottom-color: #2B6401;
+}
+
+/*公司名称css*/
+.navbar-header
+{
+    width:10%;
+    height: 50px;
+}
+.navbar-header h4
+{
+    text-align: center;
+    margin:0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height:100%;
+    color: #FFF;
+}
+
+.nav.navbar-nav
+{
+    width:90%;
+}
+
+.nav.navbar-nav li
+{
+    width:10%;
+    margin-left: 1px;
+}
+
+
+
+.navbar-inverse .navbar-nav > li > a
+{
+    color:#FFF;
+}
+nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus
+{
+    color: #FFF;
+}
+
+.nav.navbar-nav li.active > a
+{
+    color: #FFF;
+    background-color: #2B6401;
+}
+
+/*navigation item state when 1: hover   2:hover and active*/
+.nav.navbar-nav li > a:hover,.nav.navbar-nav li.active > a:hover
+{
+    color: #FFF;
+    background-color: #2B6401;
+}
+
+/*a by visited   active */
+.nav.navbar-nav li.active > a:visited
+{
+    color: #FFF;
+    background-color: #2B6401;
+}
+/*a by visited but not active */
+.nav.navbar-nav li > a:visited
+{
+    color: #FFF;
+}
+
+.navbar.navbar-inverse div
+{
+    padding-left: 0px;
+}
+
+
+
+.thumbnails
+{
+    margin-left: 0px;
+    margin-top: 20px;
+    list-style: none;
+    padding: 0px;
+    width: 100%;
+    text-align:center;
+}
+.thumbnails > li
+{
+    float: left;
+}
+
+[class*="perc5"]
+{
+    display: block;
+    min-height:30px;
+    margin-left: 1%;
+}
+
+.perc5  p
+{
+    color: red;
+    
+}
+
+[class*="perc5"]:first-child
+{
+    margin-left: 0px;
+}
+/*product div css*/
+.btn-click
+{
+    border-color: transparent;
+    cursor: pointer;
+    /*color: #000000;*/
+}
+
+.thumbnail.btn-click:hover
+{
+    background-color: #e7e7e7;
+}
+
+.perc5
+{
+    width: 19.2%;
+}
+
+
+
+.thumbnail
+{
+    display: block;
+    padding: 4px;
+    border: 1px solid #ddd;
+    line-height:20px;
+    border-radius:4px;
+    box-shadow:0 1px 3px rgba(0, 0, 0, 0.055);
+}

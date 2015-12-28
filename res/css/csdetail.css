@@ -1,0 +1,71 @@
+@CHARSET "UTF-8";
+
+body
+{
+}
+
+.leftimage
+{
+    float: left;
+    width:35%;
+}
+
+.leftimage img
+{
+    width: 380px;
+    height: 380px;
+}
+
+.rightspec
+{
+    float: right;
+    padding-top:15px;
+    width:65%;
+}
+
+.rightspec ul
+{
+    padding:0px;
+    list-style: none;
+}
+
+.rightspec li
+{
+    text-align: left;
+    height: 40px;
+    padding:0px;
+    margin:0px;
+}
+
+.spantitle
+{
+    width:85px;
+    display: inline-block;
+}
+
+.font20
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+.font16
+{
+    font-size: 16px;
+    color: #767676;
+}
+.font14
+{
+    font-size: 14px;
+    color: #767676;
+}
+
+.font28
+{
+    font-size: 28px;
+    color: #767676;
+}
+.decorationline
+{
+    text-decoration: line-through;
+
+}
