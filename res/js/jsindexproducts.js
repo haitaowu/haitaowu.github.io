@@ -99,7 +99,7 @@ function GetProductsData() {
          "price":"700",
          "img":"res/img/ejiao.jpg",
          "productid":"10",
-       "productaffect":"定西食药监械生产备20150048号",
+       "productaffect":"补血止血",
        "productcode":"1045433"
      }]
     ];

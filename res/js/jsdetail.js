@@ -104,7 +104,7 @@ function getProductById(productid) {
 							"price":"700",
 							"img":"res/img/ejiao.jpg",
 							"productid":"10",
-						"productaffect":"定西食药监械生产备20150048号",
+						"productaffect":"补血止血",
 						"productcode":"1045433"
 					}],
 					[ {
@@ -112,7 +112,7 @@ function getProductById(productid) {
 							"price":"1500",
 							"img":"res/img/lingzhi.jpg",
 							"productid":"11",
-						"productaffect":"定西食药监械生产备20150048号",
+						"productaffect":"增强机体免疫力",
 						"productcode":"1045443"
 					},
 					{
