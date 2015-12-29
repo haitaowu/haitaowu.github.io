@@ -26,128 +26,128 @@ $(document).ready(function() {
 
 
 function getProductById(productid) {
-  var productsArray =  [
-         [ {
-              "productid":"1",
-              "name":"高丽参",
-              "price":"10",
-              "img":"res/img/gaolishen.jpg",
-             "productlicense":"定西食药监械生产备20150048号",
-              "productcode":"1045473"
-          },
+  var productsArray =   [
+      [ {
+          "name":"高丽参",
+          "price":"10",
+          "img":"res/img/gaolishen.jpg",
+          "productid":"1",
+          "productlicense":"定西食药监械生产备20150048号",
+          "productcode":"1045473"
+      },
           {
-              "productid":"2",
               "name":"海马",
               "price":"20",
               "img":"res/img/haima.jpg",
-            "productlicense":"定西食药监械生产备20150048号",
-            "productcode":"1045474"
+              "productid":"2",
+              "productlicense":"定西食药监械生产备20150048号",
+              "productcode":"1045474"
           },
           {
-              "productid":"3",
               "name":"海燕",
               "price":"30",
               "img":"res/img/haiyan.jpg",
-            "productlicense":"定西食药监械生产备20150048号",
-            "productcode":"1045475"
+              "productid":"3",
+              "productlicense":"定西食药监械生产备20150048号",
+              "productcode":"1045475"
           },
           {
-              "productid":"4",
               "name":"黑枸杞",
               "price":"40",
               "img":"res/img/heigouqi.jpg",
-            "productlicense":"定西食药监械生产备20150048号",
-            "productcode":"1045476"
+              "productid":"4",
+              "productlicense":"定西食药监械生产备20150048号",
+              "productcode":"1045476"
           },
           {
-              "productid":"5",
               "name":"红景天",
               "price":"50",
               "img":"res/img/hongjingtian.jpg",
-            "productlicense":"定西食药监械生产备20150048号",
-            "productcode":"1045477"
+              "productid":"5",
+              "productlicense":"定西食药监械生产备20150048号",
+              "productcode":"1045477"
           }],
-          [ {
-              "productid":"6",
-              "name":"sfdsf灵芝",
-              "price":"10",
-              "img":"res/img/lingzhi.jpg",
-            "productlicense":"定西食药监械生产备20150048号",
-            "productcode":"1045478"
-          },
+      [ {
+          "name":"灵芝",
+          "price":"10",
+          "img":"res/img/lingzhi.jpg",
+          "productid":"6",
+          "productlicense":"定西食药监械生产备20150048号",
+          "productcode":"1045478"
+      },
           {
-              "productid":"7",
               "name":"玛卡",
               "price":"20",
               "img":"res/img/maka.jpg",
-            "productlicense":"定西食药监械生产备20150048号",
-            "productcode":"1045479"
+              "productid":"7",
+              "productlicense":"定西食药监械生产备20150048号",
+              "productcode":"1045479"
           },
           {
-              "productid":"8",
               "name":"铁皮石",
               "price":"30",
               "img":"res/img/tiepishihu.jpg",
-            "productlicense":"定西食药监械生产备20150048号",
-            "productcode":"1045413"
+              "productid":"8",
+              "productlicense":"定西食药监械生产备20150048号",
+              "productcode":"1045413"
           },
           {
-              "productid":"9",
-              "name":"当归adfg",
+              "name":"当归",
               "price":"40",
               "img":"res/img/danggui.jpg",
-            "productlicense":"定西食药监械生产备20150048号",
-            "productcode":"1045423"
+              "productid":"9",
+              "productlicense":"定西食药监械生产备20150048号",
+              "productcode":"1045423"
           },
           {
-              "productid":"10",
-              "name":"阿胶df",
+              "name":"阿胶",
               "price":"50",
               "img":"res/img/ejiao.jpg",
-            "productlicense":"定西食药监械生产备20150048号",
-            "productcode":"1045433"
+              "productid":"10",
+              "productlicense":"定西食药监械生产备20150048号",
+              "productcode":"1045433"
           }],
-          [ {
-              "productid":"11",
-              "name":"f灵芝",
-              "price":"10",
-              "img":"res/img/lingzhi.jpg",
-            "productlicense":"定西食药监械生产备20150048号",
-            "productcode":"1045443"
-          },
+      [ {
+          "name":"灵芝",
+          "price":"10",
+          "img":"res/img/lingzhi.jpg",
+          "productid":"11",
+          "productlicense":"定西食药监械生产备20150048号",
+          "productcode":"1045443"
+      },
           {
-              "productid":"12",
-              "name":"玛卡333",
+              "name":"玛卡",
               "price":"20",
               "img":"res/img/maka.jpg",
-            "productlicense":"定西食药监械生产备20150048号",
-            "productcode":"1045453"
+              "productid":"12",
+              "productlicense":"定西食药监械生产备20150048号",
+              "productcode":"1045453"
           },
           {
-              "productid":"13",
-              "name":"铁皮石3333",
+              "name":"铁皮石",
               "price":"30",
               "img":"res/img/tiepishihu.jpg",
-            "productlicense":"定西食药监械生产备20150048号",
-            "productcode":"1045463"
+              "productid":"13",
+              "productlicense":"定西食药监械生产备20150048号",
+              "productcode":"1045463"
           },
           {
-              "productid":"14",
-              "name":"当归333",
+              "name":"当归",
               "price":"40",
               "img":"res/img/danggui.jpg",
-            "productlicense":"定西食药监械生产备20150048号",
-            "productcode":"1045483"
+              "productid":"14",
+              "productlicense":"定西食药监械生产备20150048号",
+              "productcode":"1045483"
           },
           {
-              "productid":"15",
-              "name":"阿胶333",
+              "name":"阿胶",
               "price":"50",
               "img":"res/img/ejiao.jpg",
-            "productlicense":"定西食药监械生产备20150048号",
-            "productcode":"1045493"
+              "productid":"15",
+              "productlicense":"定西食药监械生产备20150048号",
+              "productcode":"1045493"
           }]
-      ];
+  ];
       var selectedProduct ;
       for (var i = 0; i < productsArray.length; i++) {
         var subArray = productsArray[i];

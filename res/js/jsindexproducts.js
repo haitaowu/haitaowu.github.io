@@ -101,46 +101,6 @@ function GetProductsData() {
             "productid":"10",
           "productlicense":"定西食药监械生产备20150048号",
           "productcode":"1045433"
-        }],
-        [ {
-            "name":"灵芝",
-            "price":"10",
-            "img":"res/img/lingzhi.jpg",
-            "productid":"11",
-          "productlicense":"定西食药监械生产备20150048号",
-          "productcode":"1045443"
-        },
-        {
-            "name":"玛卡",
-            "price":"20",
-            "img":"res/img/maka.jpg",
-            "productid":"12",
-          "productlicense":"定西食药监械生产备20150048号",
-          "productcode":"1045453"
-        },
-        {
-            "name":"铁皮石",
-            "price":"30",
-            "img":"res/img/tiepishihu.jpg",
-            "productid":"13",
-          "productlicense":"定西食药监械生产备20150048号",
-          "productcode":"1045463"
-        },
-        {
-            "name":"当归",
-            "price":"40",
-            "img":"res/img/danggui.jpg",
-            "productid":"14",
-          "productlicense":"定西食药监械生产备20150048号",
-          "productcode":"1045483"
-        },
-        {
-            "name":"阿胶",
-            "price":"50",
-            "img":"res/img/ejiao.jpg",
-            "productid":"15",
-          "productlicense":"定西食药监械生产备20150048号",
-          "productcode":"1045493"
         }]
     ];
 
