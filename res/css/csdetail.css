@@ -38,7 +38,7 @@ body
 
 .rightspec li
 {
-    text-align: right;
+    text-align: left;
     height: 40px;
     padding:0px;
     margin:0px;
@@ -69,7 +69,17 @@ body
 .font28
 {
     font-size: 28px;
+    color: #000;
+    font-weight:bold;
+    line-height: 35px;
+}
+
+.font25
+{
+    font-size: 20px;
     color: #767676;
+    font-weight:bold;
+    line-height: 35px;
 }
 .decorationline
 {
