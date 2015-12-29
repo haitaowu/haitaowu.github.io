@@ -91,7 +91,28 @@ body
     text-decoration: line-through;
 }
 
-
+.gdTable{
+    width:875px;
+    height:300px;
+    border-top:1px solid #dfdfdf;
+    border-left:1px solid #dfdfdf;
+    font-family:"Microsoft YaHei";
+}
+.gdTable th{
+    text-align:center;
+    font-weight:600;
+    color:#383838;
+}
+.gdTable th{
+    border-right:1px solid #dfdfdf;
+    border-bottom:1px solid #dfdfdf;
+}
+.gdTable td{
+    border-right:1px solid #dfdfdf;
+    border-bottom:1px solid #dfdfdf;
+    padding-left:20px;
+    text-align:left;
+}
 
 /*product 介绍样式*/
 p {

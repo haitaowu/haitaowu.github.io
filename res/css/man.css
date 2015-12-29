@@ -138,9 +138,13 @@ nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inve
 .perc5
 {
     width: 19.2%;
+    min-height: 286px;
 }
 
-
+/*固定图片大小*/
+.thumbnail.btn-click > img{
+    min-height: 170px;
+}
 
 .thumbnail
 {
