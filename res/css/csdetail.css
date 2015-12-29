@@ -7,7 +7,11 @@ body
 .leftimage
 {
     float: left;
-    width:380px;
+    text-align: center;
+    width:600px;
+    height:390px;
+    /*border-bottom-style: solid;*/
+    border-bottom: 2px solid #000;
 }
 
 .leftimage img
@@ -20,7 +24,10 @@ body
 {
     float: left;
     padding-top:15px;
-    width:380px;
+    width:180px;
+    border-left: 1px solid #ededed;
+    height: 480px;
+    margin-left: 3px;
 }
 
 .rightspec ul
@@ -31,7 +38,7 @@ body
 
 .rightspec li
 {
-    text-align: left;
+    text-align: right;
     height: 40px;
     padding:0px;
     margin:0px;
